@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+import './NewTodo.css';
 const NewTodo = (props) => {
     const [todo, setTodo]= useState("")
 
@@ -8,6 +9,8 @@ const NewTodo = (props) => {
         e.preventDefault();
         
         props.onTodos(todo)
+
+        setTodo("")
       
     
     }

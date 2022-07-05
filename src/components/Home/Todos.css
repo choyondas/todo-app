@@ -1,0 +1,10 @@
+.todos{
+    background: rgb(66, 66, 114);
+    border-radius: 1rem;
+    padding: 2rem;
+    color:white;
+    text-align:center;
+}
+.todos h3{
+    border-bottom: 2px solid white;
+}

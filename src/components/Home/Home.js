@@ -4,11 +4,11 @@ import Todos from './Todos';
 
 
 
-const dummyTodos = ["todo1", "TODO2"];
+
 
 const Home = () => {
 
-    const [todos, setTodos] = useState(dummyTodos);
+    const [todos, setTodos] = useState([]);
 
     const handleTodos = (newTodo) => {
         setTodos([...todos, newTodo]);
